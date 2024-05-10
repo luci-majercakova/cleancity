@@ -1,0 +1,32 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    min-height: 100vh;
+}
+
+.center-section {
+    width: 650px;
+    height: 500px;
+    display: flex;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.text {
+    padding-left: 16px;
+}
+
+h1 {
+    margin-top: 0px;
+}

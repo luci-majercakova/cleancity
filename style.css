@@ -1,0 +1,334 @@
+:root {
+    --primary-color: rgb(127, 158, 131);
+    --dimmed-color: rgb(216, 228, 206);
+    --secondary-color: white;
+    --green-color: rgb(196, 206, 156);
+    --central-max-width: 1100px;
+    --central-min-width: 700px;
+    --min-left-and-right-padding: 50px;
+  }
+
+
+
+body {
+    font-family: sans-serif;
+    font-size: 19px;
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("./images/brown2.jpg");
+}
+
+/*
+url("./design-space-paper-textured-background.jpg")
+ background-color: #e6e0d3;
+    background-image: radial-gradient(#d8cfb1 1.2px, #fcf5e3 1.2px);
+    background-size: 24px 24px;
+*/
+
+.header-list {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0px;
+}
+
+.header-link {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--secondary-color)
+}
+
+.top,
+.body,
+.footer {
+    display: flex;
+}
+
+.top {
+    flex-direction: column;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 200px;
+    padding-right: 200px; 
+    box-shadow: 0px 0.5px 5px 3px var(--secondary-color); */
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: var(--central-min-width);
+    max-width: var(--central-max-width);
+    flex: 1;
+    padding: 20px;
+    margin-left: var(--min-left-and-right-padding);
+    margin-right: var(--min-left-and-right-padding);
+}
+
+.header-left {
+    display: flex;
+}
+
+
+.header-right {
+    display: flex;
+}
+
+
+
+.logo-txt {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.logo-pt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: var(--green-color);
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
+
+.body {
+    justify-content: center;
+    /* background: var(--dimmed-color); */
+    flex: 1;
+}
+
+
+.body-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 16px;
+    margin-bottom: 0px;
+}
+
+.body-txt {
+    font-size: 19px;
+    margin: 16px;
+    margin-top: 8px;
+}
+
+.central-section {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--central-max-width);
+    min-width: var(--central-min-width);
+    margin-left: var(--min-left-and-right-padding);
+    margin-right: var(--min-left-and-right-padding);
+    padding-top: 68px;
+    padding-bottom: 68px;
+    gap: 68px;
+}
+
+
+.pt-top {
+    display: flex;
+    flex: 1;
+}
+
+.top-half {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+#pt-samospravy {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+#samospravy-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+ 
+#samospravy-img {
+    width: 300px;
+}
+
+
+
+
+.content-team {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+#team {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.team-member {
+    width: 200px;
+     
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 10px;
+}
+
+.tm-img {
+    width: 100px;
+    height: 100px;
+  }
+
+.tm-function,
+.tm-name {
+    text-align: center;
+}
+
+
+
+.pt-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+
+
+/*
+styles pre elementy dokumentu zadania
+*/
+.nadpis {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 64px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.zadanie {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.line {
+    border-bottom: 1px solid black; /* Adjust properties as needed */
+    min-width: var(--central-min-width);
+    max-width: var(--central-max-width);
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.nadpis-zadania {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+.podnadpis-zadania {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+
+.obrazok {
+    margin-top: 20px;
+    display: flex;
+    min-width: 450px;
+    justify-content: center;
+    flex: 1;
+}
+
+.medzera {
+    height: 48px;
+}
+
+#swot {
+    width: 500px;
+}
+
+.zadanie ol{
+    counter-reset: item;
+    padding-left: 10px;
+}
+
+.zadanie ul{
+    padding-left: 10px;
+}
+
+.zadanie li {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.ol-prva-uroven > li {
+    padding-bottom: 14px;
+    padding-top: 20px
+}
+
+.zadanie li {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.zadanie ol, ul {
+    margin-top: 0px;
+}
+
+.ol-prva-uroven li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.txt-footer {
+    font-size: 16px;
+    text-align: center;
+}

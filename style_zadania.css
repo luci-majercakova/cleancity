@@ -193,6 +193,10 @@ styles pre elementy dokumentu zadania
     width: 500px;
 }
 
+#gantt {
+    max-width: 900px;
+}
+
 .zadanie ol{
     counter-reset: item;
     padding-left: 10px;

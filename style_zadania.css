@@ -195,15 +195,16 @@ styles pre elementy dokumentu zadania
 
 #gantt {
     max-width: 900px;
+    margin-top: 24px;
 }
 
 .zadanie ol{
     counter-reset: item;
-    padding-left: 10px;
+    padding-left: 16px;
 }
 
 .zadanie ul{
-    padding-left: 10px;
+    padding-left: 16px;
 }
 
 .zadanie li {
@@ -231,6 +232,14 @@ styles pre elementy dokumentu zadania
     counter-increment: item
 }
 
+.ul {
+    list-style-type: disc;
+}
+
+
+p {
+    margin-top: 0px;
+}
 
 .footer {
     justify-content: center;

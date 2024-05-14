@@ -199,6 +199,11 @@ styles pre elementy dokumentu zadania
     margin-top: 24px;
 }
 
+#bpmn {
+    max-width: 900px;
+    margin-top: 16px;
+}
+
 .zadanie ol{
     counter-reset: item;
     padding-left: 16px;

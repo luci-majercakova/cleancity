@@ -11,7 +11,7 @@
 
 
 body {
-    font-family: sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
     margin: 0px;
     min-height: 100vh;
@@ -87,8 +87,9 @@ url("./design-space-paper-textured-background.jpg")
 
 
 .logo-txt {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -114,18 +115,23 @@ url("./design-space-paper-textured-background.jpg")
     flex: 1;
 }
 
+p {
+    margin-top: 0px;
+}
 
 .body-title {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: bold;
     margin: 16px;
     margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .body-txt {
     font-size: 16px;
     margin: 16px;
-    margin-top: 8px;
+    margin-top: 12px;
+    text-align: justify;
 }
 
 .central-section {
@@ -144,6 +150,7 @@ url("./design-space-paper-textured-background.jpg")
 .pt-top {
     display: flex;
     flex: 1;
+    flex-direction: column;
 }
 
 .top-half {
@@ -152,6 +159,10 @@ url("./design-space-paper-textured-background.jpg")
     flex-direction: column;
 }
 
+.horna {
+    display: flex;
+    flex: 1;
+}
 
 #pt-samospravy {
     display: flex;
@@ -195,7 +206,6 @@ url("./design-space-paper-textured-background.jpg")
     flex-direction: column;
 
     align-items: center;
-    gap: 10px;
 }
 
 .tm-img {
@@ -206,6 +216,13 @@ url("./design-space-paper-textured-background.jpg")
 .tm-function,
 .tm-name {
     text-align: center;
+    font-size: 15px;
+}
+
+.tm-name {
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-weight: bold;
 }
 
 
